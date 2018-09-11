@@ -3,19 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <title>dashboard</title>
+    <link rel="stylesheet" href="dashboard.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 <body>
-    <div class="wrapper">
-        <header>
+<div class="wrapper">
+    <header>
+        <div class="searchBar">
 
-        </header>
-        <div class="content">
-            <div class="sidenav">
+            <h1>BOARDASH</h1>
+            <input type="text" placeholder="Search Message, People, Ticket" />
+            <button><i class="fas fa-search"></i></button>
 
+            <p><i class="far fa-bell"></i> Set Alert</p>
+            <div class="essie">
+                <img src="profile%20pic.jpeg" />
+                <p>Essie Howell</p>
             </div>
-            <div class="rightnav">
-                 <div class="messages">
-                <div class="sectionsbox">
+        </div>
+    </header>
+    <div class="content">
+        <div class="leftnav">
+            <div class="welcome">
+                <div class="profilepic"
+                <img src="#" alt="profile pic">
+            </div>
+            <div class="profile"
+            <h3>Welcome Essie</h3>
+
+            <p>Super Admin</p>
+        </div>
+    </div>
+    <div>
+        <ul>
+            <a href="#"><li><i class="fa fa-th" aria-hidden="true"></i> Overview</li></a>
+            <a href="#"><li><i class="fa fa-bookmark" aria-hidden="true"></i> Reservation</li></a>
+            <a href="#"><li><i class="fa fa-briefcase" aria-hidden="true"></i> Meeting</li></a>
+            <a href="#"><li><i class="fa fa-users" aria-hidden="true"></i> Customers</li></a>
+            <a href="#"><li><i class="fas fa-ticket-alt"></i> Ticket</li></a>
+            <a href="#"><li><i class="fa fa-comments" aria-hidden="true"></i> Message</li></a>
+            <a href="#"><li><i class="fa fa-user" aria-hidden="true"></i> Profile</li></a>
+        </ul>
+    </div>
+    <div class="rightnav">
+        <div class="messages-top">
+            <p>messages</p>
+            <i class="fas fa-less-than"></i>
+            <p> 1-50 pages</p>
+            <a href="#">all</a>
+            <a href="#">unread</a>
+            <a href="#">Important</a>
+        </div>
+        <div class="Sales-presentation">
+            <img src="profile%20pic.jpeg" />
+            <div class="sales-center">
+                <p>Sales Presentation - Live Group class</p>
+                <p>adams_ka@gmail.com</p>
+                <p>started three minutes ago</p>
+            </div>
+            <a>you're invited</a>
+            <button><i class="fas fa-video"></i>Join Now</button>
+        </div>
+        <div class="overall-messages">
+            <div class="overall">
+                <i class="fa fa-comments" aria-hidden="true"></i>
+                <p>Overall Messages</p>
+                <p>2389 This month</p>
+            </div>
+            <div class="overall">
+                <i class="fa fa-comments" aria-hidden="true"></i>
+                <p>Sent Messages</p>
+                <p>1494 This month</p>
+            </div>
+            <div class="overall">
+                <i class="fa fa-comments" aria-hidden="true"></i>
+                <p>Received Messages</p>
+                <p>895 This month</p>
+            </div>
+        </div>
+        <div class="messages">
+            <div class="sectionsbox">
                 <div class="messagelabels">
                     <input type="checkbox">
                     <img src="#" alt="profile pic">
@@ -23,15 +91,25 @@
                     <div class="topictag">User Design</div>
                     <p class="description">Hi James, We need to do user testing by monday. Please add me on slack group.....</p>
                 </div>
+            </div>
+            <div class="messages">
+                <div class="sectionsbox">
+                    <div class="messagelabels">
+                        <input type="checkbox">
+                        <img src="#" alt="profile pic">
+                        <p class="name">Jeanette Schneider</p>
+                        <div class="topictag">Design</div>
+                        <p class="description">Every week, we bring you the stories of people across the globe-Shopify merc.....</p>
+                    </div>
                 </div>
                 <div class="messages">
                     <div class="sectionsbox">
                         <div class="messagelabels">
                             <input type="checkbox">
                             <img src="#" alt="profile pic">
-                            <p class="name">Jeanette Schneider</p>
-                            <div class="topictag">Design</div>
-                            <p class="description">Every week, we bring you the stories of people across the globe-Shopify merc.....</p>
+                            <p class="name">Brandon Mack</p>
+                            <div class="topictag">Development</div>
+                            <p class="description">Kaspers Upmanis is now following you. You have a new follower on Dribbble.....</p>
                         </div>
                     </div>
                     <div class="messages">
@@ -39,29 +117,29 @@
                             <div class="messagelabels">
                                 <input type="checkbox">
                                 <img src="#" alt="profile pic">
-                                <p class="name">Brandon Mack</p>
-                                <div class="topictag">Development</div>
-                                <p class="description">Kaspers Upmanis is now following you. You have a new follower on Dribbble.....</p>
+                                <p class="name">Frank Malone</p>
+                                <div class="topictag">Meeting with jack</div>
+                                <p class="description">Hi James, We need to do user testing by monday, Please add me in slack group.....</p>
                             </div>
                         </div>
                         <div class="messages">
                             <div class="sectionsbox">
                                 <div class="messagelabels">
-                                    <input type="checkbox">
+                                    <input type="checkbox" checked="checked">
                                     <img src="#" alt="profile pic">
-                                    <p class="name">Frank Malone</p>
-                                    <div class="topictag">Meeting with jack</div>
-                                    <p class="description">Hi James, We need to do user testing by monday, Please add me in slack group.....</p>
+                                    <p class="name">Amelia Miles</p>
+                                    <div class="topictag">Interview</div>
+                                    <p class="description">HI Divan Hope you are well. Haven't heard back from you. Are you still interested.....</p>
                                 </div>
                             </div>
                             <div class="messages">
                                 <div class="sectionsbox">
                                     <div class="messagelabels">
-                                        <input type="checkbox" checked="checked">
+                                        <input type="checkbox">
                                         <img src="#" alt="profile pic">
-                                        <p class="name">Amelia Miles</p>
-                                        <div class="topictag">Interview</div>
-                                        <p class="description">HI Divan Hope you are well. Haven't heard back from you. Are you still interested.....</p>
+                                        <p class="name">Nancy Gomez</p>
+                                        <div class="topictag">Slack</div>
+                                        <p class="description">Hi James, We need to do user testing by monday. Please add me on slack group.....</p>
                                     </div>
                                 </div>
                                 <div class="messages">
@@ -69,27 +147,18 @@
                                         <div class="messagelabels">
                                             <input type="checkbox">
                                             <img src="#" alt="profile pic">
-                                            <p class="name">Nancy Gomez</p>
-                                            <div class="topictag">Slack</div>
-                                            <p class="description">Hi James, We need to do user testing by monday. Please add me on slack group.....</p>
-                                        </div>
-                                    </div>
-                                    <div class="messages">
-                                        <div class="sectionsbox">
-                                            <div class="messagelabels">
-                                                <input type="checkbox">
-                                                <img src="#" alt="profile pic">
-                                                <p class="name">Nannie McLaughlin</p>
-                                                <div class="topictag">Gmail Team</div>
-                                                <p class="description">In the digital generation where information can be really easily obtained within seconds.....</p>
-                                            </div>
+                                            <p class="name">Nannie McLaughlin</p>
+                                            <div class="topictag">Gmail Team</div>
+                                            <p class="description">In the digital generation where information can be really easily obtained within seconds.....</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-            </div>
-        </div>
-    </div>
+                        </div>
+
+                    </div>
+
+                </div>
 
 </body>
 </html>
