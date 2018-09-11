@@ -16,18 +16,24 @@ h1 {
 }
 .searchBar {
     display: flex;
-    margin: 20px;
+    height: 85px;
+    width: 100%;
     align-items: center;
     font-family: 'Roboto', sans-serif;
+    -webkit-box-shadow: 2px 7px 8px -5px rgba(219,216,219,1);
+    -moz-box-shadow: 2px 7px 8px -5px rgba(219,216,219,1);
+    box-shadow: 2px 7px 8px -5px rgba(219,216,219,1);
 }
 
 .searchBar > h1 {
     margin: 0 40px 0 40px;
+    letter-spacing: 3px;
 }
 
 .searchBar > input {
-    height: 40px;
-    width: 70%;
+    height: 22px;
+    width: 40%;
+    padding: 10px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
@@ -37,7 +43,7 @@ h1 {
 
 .searchBar > button {
     height: 42px;
-    width: 117px;
+    width: 5%;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
@@ -45,17 +51,174 @@ h1 {
 
 .searchBar > p {
     margin: 0 30px 0 30px;
-    width: 140px;
+    width: 150px;
 }
 
 .essie {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
-.essie img {
+.searchBar .profileimg {
     margin-right: 20px;
-    width: 12%;
+    width: 47px;
+    height: 46px;
+}
+
+.profileimg {
+    width: 47px;
     height: 46px;
 }
 
 /*the top nav styles*/
+/*right and bottom nav*/
+.content{
+    display: flex;
+}
+
+.leftnav {
+    width: 360px;
+    border: 1px solid lightgrey;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.welcome {
+    display: flex;
+    border-bottom: 1px solid lightgrey;
+    padding: 10px;
+}
+
+.profilepic {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.h3header {
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+.admin {
+    margin-top: 0;
+}
+
+.menulist {
+    line-height: 55px;
+    padding-left: 0;
+}
+
+.leftnav .menulist ul a {
+    text-decoration: none;
+    list-style-type: none;
+    color: grey;
+    padding-left: 40px
+}
+
+.leftnav .menulist ul {
+    padding: 0;
+}
+
+.hover {
+    display: block;
+}
+.hover:hover {
+    text-decoration: blue;
+    border-left: 5px solid blue;
+    background-color: lightblue;
+}
+
+.leftnav .menulist ul a:hover {
+    color: blue;
+}
+
+.leftnav .menulist ul i {
+    margin-right: 20px;
+}
+
+.logout {
+    margin-top: 130px;
+}
+/*-----Right Nav------*/
+.messagelabels {
+    display: flex;
+    border: 1px solid lightgrey;
+    width: 120%;
+    margin-right: 10px;
+}
+
+.messagelabels i {
+    margin-right:
+}
+
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+.name, .topictag, .description {
+    margin-right:5px;
+}
+
+.topictag {
+    border: 1px solid lightgrey;
+    background-color: #f2f2f2;
+}
+/*end of right and left nav*/
+/*messages styles are here*/
+.rightnav {
+    margin: 20px 40px 20px 20px;
+    width: 100%;
+}
+
+.messages-top {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.messages-top > div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 40px;
+    margin: 0 40px;
+}
+
+.messages-top > div p, a, i {
+    margin: 0px 20px;
+    color: grey;
+}
+
+.messages-top > div a {
+    padding: 10px 20px;
+    text-decoration: none;
+
+}
+
+.nospacemsg {
+    margin: 0;
+    border: 1px lightgrey solid;
+}
+
+.nospacemsg:nth-child(1) {
+    border-right: 2px black solid;
+    background-color: aquamarine;
+}
+
+
+
+
+#msglgfont {
+    font-size: 30px;
+}
+
+/*this is the styles for the sales rep*/
+
+.Sales-presentation {
+    background-image: linear-gradient(to right, hotpink, orange);
+}

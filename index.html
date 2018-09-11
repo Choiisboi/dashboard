@@ -5,6 +5,7 @@
     <title>dashboard</title>
     <link rel="stylesheet" href="dashboard.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 <body>
@@ -18,7 +19,7 @@
 
             <p><i class="far fa-bell"></i> Set Alert</p>
             <div class="essie">
-                <img src="profile%20pic.jpeg" />
+                <img src="profile%20pic.jpeg" class="profileimg" />
                 <p>Essie Howell</p>
             </div>
         </div>
@@ -26,37 +27,44 @@
     <div class="content">
         <div class="leftnav">
             <div class="welcome">
-                <div class="profilepic"
-                <img src="#" alt="profile pic">
+                <div>
+                    <img src="patrick.png" class="profilepic" alt="profile pic">
+                </div>
+                <div class="profile">
+                    <h3 class="h3header">Welcome Essie</h3>
+                    <p class="admin">Super Admin</p>
+                </div>
             </div>
-            <div class="profile"
-            <h3>Welcome Essie</h3>
+            <div class="menulist">
+                <ul>
+                    <a href="#" class="hover"><li><i class="fa fa-th" aria-hidden="true"></i> Overview</li></a>
+                    <a href="#" class="hover"><li><i class="fa fa-bookmark" aria-hidden="true"></i> Reservation</li></a>
+                    <a href="#" class="hover"><li><i class="fa fa-briefcase" aria-hidden="true"></i> Meeting</li></a>
+                    <a href="#" class="hover"><li><i class="fa fa-users" aria-hidden="true"></i> Customers</li></a>
+                    <a href="#" class="hover"><li><i class="fas fa-ticket-alt"></i> Ticket</li></a>
+                    <a href="#" class="hover"><li><i class="fa fa-comments" aria-hidden="true"></i> Message</li></a>
+                    <a href="#" class="hover"><li><i class="fa fa-user" aria-hidden="true"></i> Profile</li></a>
+                    <a href="#" class="hover logout"><li><i class="fa fa-power-off" aria-hidden="true"></i> Log Out</li></a>
+                </ul>
 
-            <p>Super Admin</p>
+            </div>
         </div>
-    </div>
-    <div>
-        <ul>
-            <a href="#"><li><i class="fa fa-th" aria-hidden="true"></i> Overview</li></a>
-            <a href="#"><li><i class="fa fa-bookmark" aria-hidden="true"></i> Reservation</li></a>
-            <a href="#"><li><i class="fa fa-briefcase" aria-hidden="true"></i> Meeting</li></a>
-            <a href="#"><li><i class="fa fa-users" aria-hidden="true"></i> Customers</li></a>
-            <a href="#"><li><i class="fas fa-ticket-alt"></i> Ticket</li></a>
-            <a href="#"><li><i class="fa fa-comments" aria-hidden="true"></i> Message</li></a>
-            <a href="#"><li><i class="fa fa-user" aria-hidden="true"></i> Profile</li></a>
-        </ul>
-    </div>
-    <div class="rightnav">
+
+        <div class="rightnav">
         <div class="messages-top">
-            <p>messages</p>
-            <i class="fas fa-less-than"></i>
-            <p> 1-50 pages</p>
-            <a href="#">all</a>
-            <a href="#">unread</a>
-            <a href="#">Important</a>
+            <p id="msglgfont">Messages</p>
+            <div>
+                <i class="fas fa-less-than"></i>
+                <p> 1-50 pages</p>
+                <i class="fas fa-greater-than"></i>
+                <a href="#">all</a>
+                <a href="#" class="nospacemsg">unread</a>
+                <a href="#" class="nospacemsg">Important</a>
+            </div>
+
         </div>
         <div class="Sales-presentation">
-            <img src="profile%20pic.jpeg" />
+            <img src="profile%20pic.jpeg" class="profileimg" />
             <div class="sales-center">
                 <p>Sales Presentation - Live Group class</p>
                 <p>adams_ka@gmail.com</p>
